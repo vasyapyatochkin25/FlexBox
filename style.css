@@ -1,13 +1,24 @@
+
+
+
+
 .mainContainer{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: grey;
     width: 100%;
-    height: 100vh;
+    height: 1500px;
     
 }
+.container0{
 
+    background-color: red;
+   width: 100%;
+   height: 50px;
+   position: fixed;
+}
 .container1{
     display: flex;
     flex-direction: row;
@@ -55,6 +66,7 @@
     /*border:  3px solid royalblue;*/
 }
 body{
-   background: red;
-   margin:  0;
+   background:cornflowerblue;
+  position: relative;
+   margin: 0;
 }
